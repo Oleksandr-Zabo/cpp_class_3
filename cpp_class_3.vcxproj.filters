@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{f56c12d0-8699-473c-9649-3879076a1a01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{ea783f99-05b2-4fb6-97a8-710fc161d5f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reservoir">
+      <UniqueIdentifier>{f418913a-d4b5-485d-b6eb-5858da0ff8d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logger">
+      <UniqueIdentifier>{b4a07e20-b38f-47a6-9d4e-8a7c5acfff55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="reserviors">
+      <UniqueIdentifier>{16a7d242-dec8-4514-8416-9b24b9f2f073}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="reservoir.cpp">
+      <Filter>Reservoir</Filter>
+    </ClCompile>
+    <ClCompile Include="reserviors.cpp">
+      <Filter>reserviors</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libs.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="reservoir.h">
+      <Filter>Reservoir</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>logger</Filter>
+    </ClInclude>
+    <ClInclude Include="reserviors.h">
+      <Filter>reserviors</Filter>
+    </ClInclude>
+    <ClInclude Include="consts.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
