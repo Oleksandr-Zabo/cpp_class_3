@@ -128,14 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="reserviors.cpp" />
+    <ClCompile Include="res_obs.cpp" />
     <ClCompile Include="reservoir.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="consts.h" />
     <ClInclude Include="libs.h" />
     <ClInclude Include="logger.h" />
-    <ClInclude Include="reserviors.h" />
+    <ClInclude Include="res_obs.h" />
     <ClInclude Include="reservoir.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

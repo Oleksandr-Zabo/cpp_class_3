@@ -13,7 +13,7 @@
     <Filter Include="logger">
       <UniqueIdentifier>{b4a07e20-b38f-47a6-9d4e-8a7c5acfff55}</UniqueIdentifier>
     </Filter>
-    <Filter Include="reserviors">
+    <Filter Include="res_obs">
       <UniqueIdentifier>{16a7d242-dec8-4514-8416-9b24b9f2f073}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -24,8 +24,8 @@
     <ClCompile Include="reservoir.cpp">
       <Filter>Reservoir</Filter>
     </ClCompile>
-    <ClCompile Include="reserviors.cpp">
-      <Filter>reserviors</Filter>
+    <ClCompile Include="res_obs.cpp">
+      <Filter>res_obs</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -38,8 +38,8 @@
     <ClInclude Include="logger.h">
       <Filter>logger</Filter>
     </ClInclude>
-    <ClInclude Include="reserviors.h">
-      <Filter>reserviors</Filter>
+    <ClInclude Include="res_obs.h">
+      <Filter>res_obs</Filter>
     </ClInclude>
     <ClInclude Include="consts.h">
       <Filter>libs</Filter>
